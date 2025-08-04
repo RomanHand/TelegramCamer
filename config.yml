@@ -1,0 +1,9 @@
+telegram:
+  bot_token: "token"
+  welcome_msg: "Привет! Нажми /photo чтобы сделать снимок с камеры."
+  allowed_users:
+    - 1234555
+
+camera:
+  filename: "screenshot.jpg"
+  device_id: 1 # Номер камеры (0 — по умолчанию)
