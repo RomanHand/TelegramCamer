@@ -64,7 +64,7 @@ func isUserAllowed(userID int64, allowed []int64) bool {
 }
 
 func main() {
-	cfg, err := loadConfig("config.yml")
+	cfg, err := loadConfig("/etc/telecamera/config.yml")
 	if err != nil {
 		log.Fatalf("Ошибка загрузки config.yml: %v", err)
 	}
